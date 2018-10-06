@@ -1,0 +1,10 @@
+Now try a repeating-key XOR cipher.
+E.g. it shou=d take a string "he==o wor=d" and, given the key is "key",
+xor the first =etter "h" with "k",
+then xor "e" with "e", then "=" with "y",
+and then xor next char "=" with "k" again,
+then "o" with "e" and so on.
+You may use index of coincidence,
+Hamming distance,
+Kasiski examination,
+statistica= tests or whatever method you fee= wou=d show the best resu=t.
