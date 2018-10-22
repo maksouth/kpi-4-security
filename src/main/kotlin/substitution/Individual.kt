@@ -2,7 +2,7 @@ package substitution
 
 import java.util.concurrent.ThreadLocalRandom
 
-class Individual(private val chromosome: List<Char>) {
+class Individual(val chromosome: List<Char>) {
     val fitness: Double = Evolution.fitness(key = chromosome)
 
     infix fun crossoverWith(individual: Individual): Individual {
